@@ -8,7 +8,7 @@
       <link rel="stylesheet" href="index.css" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
-      <title>Relaxer1</title>
+      <title>My_Portfolio</title>
 </head>
 
 <body>
@@ -109,30 +109,43 @@
                   <div id="aboutme" class="aboutme">
                         <h4>Main Info</h4>
                         <h2>ABOUT ME</h2>
-                        <div>
+                        <div class="left">
                               <img src="images/z-removebg-preview.png">
                               <br>
-                              <div class="social-links">
-                                    <a href="https://www.instagram.com/mr__nobody__since__2012/"><i
-                                                class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                    <a href="https://www.linkedin.com/in/yaswanth-karri-411196211/"><i
-                                                class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="far fa-envelope"></i></a>
+                              <div id="wrapper">
+                                    <div class="social-links">
+                                          <div class="icon instagram">
+                                                <div class="toolpit">Instagram</div>
+                                                <span><a href="https://www.instagram.com/mr__nobody__since__2012/"><i
+                                                                  class="fab fa-instagram"></i></a></span>
+                                          </div>
+                                          <div class="icon linkedin">
+                                                <div class="toolpit">LinkedIn</div>
+                                                <span><a href="https://www.linkedin.com/in/yaswanth-karri-411196211/"><i
+                                                                  class="fab fa-linkedin"></i></a></span>
+                                          </div>
+                                          <div class="icon gmail">
+                                                <div class="toolpit">GitHub</div>
+                                                <span><a href="#"><i class="fab fa-github"></i></a></span>
+                                          </div>
+                                          <div class="icon whatsapp">
+                                                <div class="toolpit">6305726698</div>
+                                                <span><a href="#"><i class="fab fa-whatsapp"></i></a></span>
+                                          </div>
+                                    </div>
                               </div>
+
                         </div>
-                        <div class="about-info">
+                        <div class="about-info right">
                               <p><span>Hi! My name is Yaswanth Santosh Kumar Karri. I am a self-motivated and passionate
-                                          individual who
-                                          loves<br> to code, build and collaborate in creating software products that
-                                          creates impact. I am having Solid<br>
-                                          understanding of the coreconcepts and Proficient in JavaScript, ReactJS, HTML,
-                                          CSS and basic knowledge<br> in
-                                          Python.
+                                          individual who loves to code, build and collaborate in creating software
+                                          products that creates impact. I am having Solid understanding of the
+                                          coreconcepts and Proficient in JavaScript, ReactJS, HTML,
+                                          CSS and basic knowledge in Python.
                                           I am therefore currently looking for a job or an internship as an front-end
                                           developer.</span></p>
                               <a class="btn1 d" href="resume/Yaswanth_Resume.pdf">Download Resume</a>
-                              <a class="btn1-" id="hireme" data-value="contact" href="#contact">Hire Me</a>
+                              <a class="btn1" id="hireme" data-value="contact" href="#contact">Hire Me</a>
                         </div>
                   </div>
                   <div id="skiledubtn">
@@ -140,7 +153,7 @@
                         <a id="educationbtn" class="btn1" onclick="function1('educationbtn')">Education</a>
                   </div>
                   <div id="skillz">
-                        <div>
+                        <div class="left">
                               <li>
                                     <h4>html</h4>
                                     <span class="bar"><span class="html"></span></span>
@@ -150,7 +163,7 @@
                                     <span class="bar"><span class="CSS"></span></span>
                               </li>
                         </div>
-                        <div>
+                        <div class="right">
                               <li>
                                     <h4>JavaScript</h4>
                                     <span class="bar"><span class="JavaScript"></span></span>
@@ -191,49 +204,49 @@
                               <a id="allbtn" class="btn1" onclick="function1('allbtn')">All</a>
                               <a id="webappbtn" class="btn1" onclick="function1('webappbtn')">Web Applications</a>
                               <a id="photoshopbtn" class="btn1" onclick="function1('photoshopbtn')">Photoshop</a>
-                              <div class="webandpho">
-                                    <div id="webapp">
-                                          <div class="box" id="calsy" onclick="function1('clasywork')">
-                                                <img src="images/projects/Capture.JPG">
-                                                <span>Scifi-Calsy</span>
-                                          </div>
-                                          <div class="box" id="Indian_Tourism" onclick="function1('indiawork')">
-                                                <img src="images/projects/india.JPG">
-                                                <span>Indian_Tourism</span>
-                                          </div>
-                                          <div class="box" id="password" onclick="function1('passwordwork')">
-                                                <img src="images/projects/password.JPG">
-                                                <span>password</span>
-                                          </div>
-                                          <div class="box" id="Pomodoro_with_ToDoList"
-                                                onclick="function1('pomodorowork')">
-                                                <img src="images/projects/pomodoro.JPG">
-                                                <div id="pomo">Pomodoro_with_ToDoList</div>
-                                          </div>
-                                          <div class="box" id="Weight_Converter" onclick="function1('weightwork')">
-                                                <img src="images/projects/weight.JPG">
-                                                <span>Weight_Converter</span>
-                                          </div>
-                                          <div class="box" id="playing_card" onclick="function1('cardwork')">
-                                                <img src="images/projects/playing card.JPG">
-                                                <span>playing card</span>
-                                          </div>
+                        </div>
+                        <div class="webandpho">
+                              <div id="webapp">
+                                    <div class="box" id="calsy" onclick="function1('clasywork')">
+                                          <img src="images/projects/Capture.JPG">
+                                          <span>Scifi-Calsy</span>
                                     </div>
-                                    <div id="photoshop">
-                                          <div class="box" id="bulb_fish_tank">
-                                                <img src="images/photo_shop/1-photoshop.png">
-                                                <span>Bulb Fish Tank</span>
-                                          </div>
-                                          <div class="box" id="golden_reindeer">
-                                                <img src="images/photo_shop/golden_anthlers_reindeer.jpg">
-                                                <span>Golden_Anthlers_Reindeer</span>
-                                          </div>
-                                          <div class="box" id="playing_card">
-                                                <img src="images/projects/playing card.JPG">
-                                                <span>playing card</span>
-                                                <h4></h4>
-                                          </div>
+                                    <div class="box" id="Indian_Tourism" onclick="function1('indiawork')">
+                                          <img src="images/projects/india.JPG">
+                                          <span>Indian_Tourism</span>
                                     </div>
+                                    <div class="box" id="password" onclick="function1('passwordwork')">
+                                          <img src="images/projects/password.JPG">
+                                          <span>password</span>
+                                    </div>
+                                    <div class="box" id="Pomodoro_with_ToDoList" onclick="function1('pomodorowork')">
+                                          <img src="images/projects/pomodoro.JPG">
+                                          <span>ToDoList_Pomodoro_with</span>
+                                    </div>
+                                    <div class="box" id="Weight_Converter" onclick="function1('weightwork')">
+                                          <img src="images/projects/weight.JPG">
+                                          <span>Weight_Converter</span>
+                                    </div>
+                                    <div class="box" id="playing_card" onclick="function1('cardwork')">
+                                          <img src="images/projects/playing card.JPG">
+                                          <span>playing card</span>
+                                    </div>
+                              </div>
+                              <div id="photoshop">
+                                    <div class="box" id="bulb_fish_tank">
+                                          <img src="images/photo_shop/1-photoshop.png">
+                                          <span>Bulb_Fish_Tank</span>
+                                    </div>
+                                    <div class="box" id="golden_reindeer">
+                                          <img src="images/photo_shop/golden_anthlers_reindeer.jpg">
+                                          <span>Golden_Anthlers_Reindeer</span>
+                                    </div>
+                                    <div class="box" id="playing_card">
+                                          <img src="images/projects/playing card.JPG">
+                                          <span>playing card</span>
+                                          <h4></h4>
+                                    </div>
+
                               </div>
                         </div>
                   </div>
@@ -242,16 +255,19 @@
                         <h4>contact</h4>
                         <h1>Get In Touch</h1>
                         <div class="social-links">
-                              <div id="phone" class="box1"><i class="fas fa-phone"></i><br>Phone<br>6305726698</div>
-                              <div id="mail" class="box1"><i
-                                          class="far fa-envelope"></i><br>Gmail<br>yaswanthsantoshkumar007@gmail.com
+                              <div id="phone" class="box1"><i class="fas fa-phone"></i>
+                                    <center><br>Phone<br>6305726698</center>
                               </div>
-                              <div id="address" class="box1"><i
-                                          class="fas fa-map-marker-alt"></i><br>Adress<br>House-No:5,CVR Towers
-                                    Backside,Poolapalli</div>
+                              <div id="mail" class="box1"><i class="far fa-envelope"></i>
+                                    <center>Gmail:<br>yaswanthsantoshkumar007@gmail.com</center>
+                              </div>
+                              <div id="address" class="box1"><i class="fas fa-map-marker-alt"></i>
+                                    <center>Adress<br>House-No:5,CVR Towers
+                                          Backside,Poolapalli</center>
+                              </div>
                         </div>
                         <div id="msg">
-                              <div id="left">
+                              <div id="left" class="left">
                                     <input type="text" class="inputfields" placeholder="Enter Your Name">
                                     <br>
                                     <input type="mail" class="inputfields" placeholder="Enter Your Gmail ID">
@@ -259,7 +275,7 @@
                                     <input type="subject" id="subject" class="inputfields"
                                           placeholder="Enter Your Subject">
                               </div>
-                              <div id="right">
+                              <div id="right" class="right">
                                     <textarea class="Rinputfields" placeholder="Enter Your Message Here"></textarea>
                                     <a class="btn1">Submit</a>
                               </div>
